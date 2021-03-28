@@ -43,7 +43,7 @@ ul{
 }
 .cercle_container{
     position: relative;
-    background: #F2EADF;
+    background: #F7EFE4;
     height: 55rem;
     height: 92vh;
     overflow: hidden;
@@ -114,10 +114,10 @@ ul{
     right: 10rem; */
 }
 .picture_me img , .picture_me h2{
-    margin: 0rem 4rem;
+    margin: 0rem 7rem;
 }
 .picture_me img{
-    
+
 }
 .picture_me h2{
     background: #D9A5A0;
@@ -132,13 +132,38 @@ ul{
 }
 .description_me{
     color: #D9A5A0;
-    font-size: 25px;
+    font-size: 20px;
     grid-column: 2/3;
     grid-row: 1/3;
+    /* position: relative; */
+    width: 45vw;
 }
 .description_me p {
+    /* position: absolute; */
     overflow: hidden;
+    text-align: justify;
+    margin: 1rem 0rem;
 }
+/* .description_me p:nth-child(2){
+    top: 50px;
+    left: -100px;
+}
+.description_me p:nth-child(3){
+    top: 210px;
+    right: -200px;
+}
+.description_me p:nth-child(4){
+    top: 350px;
+    left: -100px;
+}
+.description_me p:last-child {
+    right: -200px;
+    top: 550px;
+} */
+/* .description_me p:nth-child(5) {
+    left: -100px;
+    top: 500px;
+} */
 
 
 @keyframes test{
