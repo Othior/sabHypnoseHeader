@@ -24,7 +24,7 @@ ul{
 .logo{
     color: #D9A5A0;
     font-size: 40px;
-    font-weight: 400;
+    font-weight: 500;
     font-style: oblique;
     font-family: 'Dosis';
 }
@@ -135,7 +135,7 @@ ul{
 }
 .description_me{
     color: #D9A5A0;
-    font-size: 25px;
+    font-size: 24px;
     grid-column: 2/3;
     grid-row: 1/3;
     /* position: relative; */
@@ -146,6 +146,7 @@ ul{
     overflow: hidden;
     text-align: justify;
     margin: 1rem 0rem;
+    font-weight: 500;
 }
 /* .description_me p:nth-child(2){
     top: 50px;
