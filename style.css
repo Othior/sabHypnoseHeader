@@ -4,7 +4,8 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Dosis';
+    /* font-family: 'Poppins',sans-serif; */
 }
 nav{
     display: flex;
@@ -23,8 +24,9 @@ ul{
 .logo{
     color: #D9A5A0;
     font-size: 40px;
-    font-weight: bold;
+    font-weight: 400;
     font-style: oblique;
+    font-family: 'Dosis';
 }
 .nav_item{
     display: flex;
@@ -34,6 +36,7 @@ ul{
 .nav_item li a{
     font-style: italic;
     font-weight: bold;
+    font-size: 22px;
 }
 .nav_item li a:hover{
     color: #D9A5A0;
@@ -114,7 +117,7 @@ ul{
     right: 10rem; */
 }
 .picture_me img , .picture_me h2{
-    margin: 0rem 7rem;
+    margin: 1rem 7rem 1rem 8rem;
 }
 .picture_me img{
 
@@ -125,14 +128,14 @@ ul{
     font-size: 25px;
     width: 492px;
     text-align: center;
-    margin-top: -7px;
+    margin-top: -20px;
     padding: 10px;
     grid-column: 3/4;
     grid-row: 1/2;
 }
 .description_me{
     color: #D9A5A0;
-    font-size: 20px;
+    font-size: 25px;
     grid-column: 2/3;
     grid-row: 1/3;
     /* position: relative; */
